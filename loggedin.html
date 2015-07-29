@@ -4,9 +4,14 @@
 		<h1> Welcome to your O-doption!<h1>
 	</head>
 	<body>
-		<p> Here you can view information about the status of your O-doption and how your oysters are doing. </p>
+		<p> Here you can view information about the status of your adoption and how your oysters are doing. </p>
 		<br>
 		<br>
+			<form align="right" name="form1" method="post" action="log_out.php">
+ 				<label class="logoutLblPos">
+  				<input name="submit2" type="submit" id="submit2" value="Log out">
+  				</label>
+			</form>
 		<h2> Location:</h2>
 		<p> July 31st is a hot and humid day near the site where your oysters are. It is currently high tide. <p>
 		<br>
@@ -18,7 +23,20 @@
 		<br>
 		<br>
 		<h2>Schedule a visit to your oyster today!</h2>
-		<P> The oyster site is open on Mondays to Fridays, 8:00 a.m. to 4:00 p.m. <p>
-			
-</body>
+		<P> The oyster site is open on Mondays to Fridays, at 8:00 a.m or 4:00 p.m. <p>
+		<form>
+			<select id="visitdays" size="5">
+  				<option>Monday</option>
+ 				<option>Tuesday</option>
+  				<option>Wednesday</option>
+ 				<option>Thursday</option>
+ 				<option>Friday</option>
+			</select>
+			<div class="time">
+				<input type="radio" name="time" value="8:00">8:00 a.m.</option>
+				<input type="radio" name="time" value="4:00">4:00 p.m.</option>
+			</div>
+				<input type="submit" value="Confirm Visit">
+		</form>
+	</body>
 </html>
