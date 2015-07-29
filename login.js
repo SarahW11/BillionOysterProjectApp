@@ -1,7 +1,7 @@
 function Login(form) {
 	var username=["user1","nithya","sarah","daniel","demetrius","robert", "evan"]
 	var password=["password1","narayanan","weltz","spongebob","tillery", "strafford","strauss"]
-	var page = "loggedin" + ".html";
+	var page = "logininwithcss" + ".html";
 		if (form.username.value == username[0] && form.password.value == password[0] 
 			|| form.username.value == username[1] && form.password.value == password[1]
 			|| form.username.value == username[2] && form.password.value == password[2] 
