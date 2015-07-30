@@ -87,3 +87,10 @@ body, html {
       margin-left: 250px;
       font-size: 20px;
     }
+
+    button{
+      margin-left: 250px;
+      margin-top: 450px;
+      font-size: 15px;
+      border-radius: 10px ;
+    }
