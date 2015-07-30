@@ -61,5 +61,29 @@ body, html {
      p {
       background-color: white;
       font-size: 20px;
-      margin-left: 200px;
+      margin-left: 250px;
      }
+
+     iframe {
+      margin-left: 250px;
+     }
+
+    #sentence{
+      margin-left: 250px;
+    }
+
+    #visitdays {
+      margin-left: 250px;
+      height: 130px;
+      width: 130px;
+      font-size: 20px;
+    }
+
+    .time{
+      margin-left: 0px;
+      font-size: 20px;
+    }
+    input{
+      margin-left: 250px;
+      font-size: 20px;
+    }
