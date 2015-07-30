@@ -39,6 +39,15 @@ function extraPrice(){
     	if(video.checked==true) {
         extratotal=extratotal+5;
    		}
+   		else{
+   			picture.visibility=none;
+   			visit.visibility=none;
+   			splush.visibility=none;
+   			jplush.visibility=none;
+   			bag.visibility=none;
+   			video.visibility=none;
+   		}
+
     return extratotal;
 }
 
