@@ -80,3 +80,8 @@ body, html {
         border-radius: 30px;
         font-size: "Trebuchet MS", Helvetica, sans-serif;
       }
+      .Name {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left:550px;
+      }
