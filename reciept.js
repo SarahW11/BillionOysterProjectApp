@@ -1,20 +1,20 @@
 /*using number of oysters requested*/
 function oysters(){
-	var theForm=document.forms["adoptionform"];
-	var quantity=theForm.elelments["number"];
+	var theForm=document.forms["adoptform"];
+	var quantity=theForm.elements["number"];
 	var howmany=0;
 	if(quantity.value!=""){
 		howmany=parseInt(quantity.value);
 	}
-	return howmany;
 	var oprice=howmany*0.25;
+	return oprice
 }
 
 
 /*Get price from various packages*/
 function extraPrice(){
 	var extratotal =0;
-	var theForm = document.forms["adoptionform"];
+	var theForm = document.forms["adoptform"];
 	var picture = theForm.elements["picture"];
     	if(picture.checked==true) {
         extratotal=extratotal+2;
@@ -39,19 +39,18 @@ function extraPrice(){
     	if(video.checked==true) {
         extratotal=extratotal+5;
    		}
-   		else{
-   			picture.visibility=none;
-   			visit.visibility=none;
-   			splush.visibility=none;
-   			jplush.visibility=none;
-   			bag.visibility=none;
-   			video.visibility=none;
-   		}
-
     return extratotal;
 }
 
 function totalprice(){
 	var total=oysters()+extraPrice();
-	document.getElementById('totalPrice').innerHTML="Total Price For Cake$"+total;
+	document.getElementById('totalPrice').innerHTML="Total Price For Adoption$"+total;
 }
+
+//totalprice(),
+
+
+var price = document.getElementById('totalPrice');
+price.innerHTML = "$409950";
+
+console.log(oysters());
