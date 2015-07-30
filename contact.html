@@ -1,18 +1,19 @@
 <html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   		<title>Adopt An Oyster</title>
+    	<style type="text/css"></style>
+    	<link rel="stylesheet" href="background.css"></link>
 		<title>Contact Us</title>
 	<head>
 	<body>
-		<form>
-			Name: <input type="text">
-			<br>
-			E-mail: <input type="text">
-			<br>
-			Message: <input type="text">
-		</form>
-		<p> Thank you for your time! We'll be sure to respond as quickly as possible. </p>
-		<form>
-			<input type="submit" value="Submit" onclick="location.href='index.html';">
+		<form action="contact.php" method="post">
+    		Your name<br><input type="text" name="cf_name"><br>
+    		Your e-mail<br><input type="text" name="cf_email"><br>
+    		Message<br><textarea name="cf_message">
+    		<br>
+   			<input type="submit" value="Send">
+    		<input type="reset" value="Clear">
 		</form>
 	</body>
-</htmL>
+</html>
