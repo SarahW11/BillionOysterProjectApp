@@ -1,12 +1,16 @@
 <html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    	<title>Adopt An Oyster</title>
+    	<style type="text/css"></style>
+    	<link rel="stylesheet" href="index.css"></link>
 		<title>Oyster Adoption</title>
 	</head>
 	<body>
-<h1> Time to start the oyster adoption process!<h1>
-<form action="demo_form.asp">
+<h1> Time to start the oyster adoption process!</h1>
+<form id="adoptform" action="demo_form.asp">
 <div class="Number">
-	<h2> How many oysters do you want?<h2>
+	<h2> How many oysters do you want?</h2>
 		Number(1-100): <input type="number" name="Number">
 </div>
 <br>
@@ -14,15 +18,17 @@
 	<h2> Select a name for your oyster or oyster family!</h2>
 		First name: <input type="text" name="FirstName"> 
 		<br>
+		<br>
 		Middle name: <input type="text" name="MiddleName"> 
 		<br>
+		<br>
 		Last name: <input type="text" name="LastName">
+		<br>
 		<br>
 </div>
 <br>
 <div class="location">
-	<h2>Where do you live?<h2>
-	<p>
+	<h2>Where do you live?</h2>
   		<input type="radio" name="borough" value="manhattan">Manhattan</option>
   		<input type="radio" name="borough" value="Bronx">Bronx</option>
  		<input type="radio" name="borough" value="Queens">Queens</option>
@@ -31,8 +37,7 @@
 </div>
 <br>
 <div class="Package">
-	<h2>What kind of adoption package do you want?<h2>
-	<br>
+	<h2>What kind of adoption package do you want?</h2>
 	<input type="checkbox" name="package" value="Picture"/>Picture($2)
 	<br/>
 	<input type="checkbox" name="package" value="Visit"/> Visit($10)
@@ -48,8 +53,7 @@
 	<input type="checkbox" name="package" value="Live Video Feed"/> Live Video Feed ($5)
 </div>
 <h1> Thanks for adopting an oyster!<h1>
-<br>
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" onClick="location.href='reciept.html';">
 </form>
 </body>
 </html>
