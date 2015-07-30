@@ -46,11 +46,3 @@ function totalprice(){
 	var total=oysters()+extraPrice();
 	document.getElementById('totalPrice').innerHTML="Total Price For Adoption$"+total;
 }
-
-//totalprice(),
-
-
-var price = document.getElementById('totalPrice');
-price.innerHTML = "$409950";
-
-console.log(oysters());
