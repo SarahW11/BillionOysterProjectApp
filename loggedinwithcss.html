@@ -22,33 +22,35 @@
       <form align="right" name="form1" method="post" action="index.html">
         <label class="logoutLblPos">
           <input name="submit2" type="submit" id="submit2" value="Log out">
-          </label>
+        </label>
       </form>
     <h2> Location:</h2>
     <p> July 31st is a hot and humid day near the site where your oysters are. It is currently high tide. <p>
-    <br>
     <br>
     <h2>Live Feed:</h2>
     <p> See how your oysters are doing!</P>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OscRe3pSP80" frameborder="0" allowfullscreen>
     </iframe>
     <br>
-    <br>
-    <h2>Schedule a visit to your oyster today!</h2>
+    <h2 id="sentence">Schedule a visit to your oyster today!</h2>
     <P> The oyster site is open on Mondays to Fridays, at 8:00 a.m or 4:00 p.m. <p>
     <form>
       <select id="visitdays" size="5">
           <option>Monday</option>
-        <option>Tuesday</option>
+          <option>Tuesday</option>
           <option>Wednesday</option>
-        <option>Thursday</option>
-        <option>Friday</option>
+          <option>Thursday</option>
+          <option>Friday</option>
       </select>
+      <br></br>
       <div class="time">
         <input type="radio" name="time" value="8:00">8:00 a.m.</option>
         <input type="radio" name="time" value="4:00">4:00 p.m.</option>
       </div>
+      <br></br>
+        <input type="submit" value="Confirm Visit">
         <input type="submit" value="Confirm Visit" onClick="location.href='index.html';">
     </form>
+    </div> 
 	  </body>
 </html>
