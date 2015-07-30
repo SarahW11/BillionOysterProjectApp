@@ -51,6 +51,6 @@ function totalprice(){
 
 
 var price = document.getElementById('totalPrice');
-price.innerHTML = "$409950";
+price.innerHTML = "$";
 
 console.log(oysters());
