@@ -44,17 +44,5 @@ function extraPrice(){
 
 function totalprice(){
 	var total=oysters()+extraPrice();
-	document.getElementById('totalPrice').innerHTML="Total Price For Adoption$"+total;
-<<<<<<< HEAD
+	document.getElementById('totalPrice').innerHTML="Total Price For Adoption: $"+total;
 }
-
-//totalprice(),
-
-
-var price = document.getElementById('totalPrice');
-price.innerHTML = "$";
-
-console.log(oysters());
-=======
-}
->>>>>>> origin/master
