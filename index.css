@@ -10,7 +10,7 @@ body, html {
           margin: 0;
           font-family: helvetica;
           font-weight: 100;
-      }
+  }
       #secondpic {
         position:absolute;
         margin-left: 400px;
@@ -91,3 +91,6 @@ body, html {
         border-radius: 30px;
         font-size: "Trebuchet MS", Helvetica, sans-serif;
       }
+html{
+  background-color:#3366CC;
+}
